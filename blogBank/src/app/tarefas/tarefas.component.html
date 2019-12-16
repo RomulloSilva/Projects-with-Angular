@@ -1,0 +1,14 @@
+<!--O laço ira percorrer o vetor(minhaTarefa) e colocara cada objeto na variável (tarefa) até que finalize o vetor-->
+<div *ngFor='let tarefa of minhaTarefa'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <!--Aqui ele coloca os valores dos objetos definidos, (Nome e responsável), sendo esses os formatos da classe criada no model tarefa.ts e no que foi lido na URL-->
+                <h3>Tarefa: {{tarefa.nome}}</h3>
+                <p>Responsável: {{tarefa.responsavel}}</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</div>

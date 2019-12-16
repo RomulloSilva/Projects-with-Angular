@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+    <img src="../../assets/imagens/banco.jpg"  width="80px" height="80px" href="#">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="'/home'">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Saiba ++</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://www.youtube.com/" target="blank"><img
+                src="../../assets/imagens/you.png" width="20px" height="20px">Youtube</a>
+            <a class="dropdown-item" href="https://pt-br.facebook.com/" target="blank"><img
+                src="../../assets/imagens/face.png" width="20px" height="20px">Facebook</a>
+            <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br" target="blank"> <img
+                src="../../assets/imagens/Instagram.png" width="20px" height="20px"> Instagram</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="'/tarefas'">Tarefas</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a class="nav-link" [routerLink]="'/formulario'" >Cadastre-se <span class="sr-only">(current)</span></a>
+        <a [routerLink]="'/busca'"><button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button></a>
+      </form>
+    </div>
+  </nav>
