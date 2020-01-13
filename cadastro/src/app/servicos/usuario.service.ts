@@ -32,6 +32,10 @@ export class UsuarioService {
     return this.http.post("http://cloud.professorisidro.com.br:8088/usuario/new",usuario);
 
   }
+  //Parte30: criando o serviço put para
+  public atualiza(usuario: Usuario){
+    return this.http.put("http://cloud.professorisidro.com.br:8088/usuario", usuario)
+    }
 
 
 }

@@ -1,0 +1,15 @@
+
+<!--Parte31: Criar o html da pagina que vai exibir os dados para serem modificados-->
+
+<div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                    Usuario: <input type="text" [(ngModel)]="usuario.nome"><br/><!--Parte32: com o ngModel fazemos a ligação com os dados-->
+                    EMAIL: <input type="text" [(ngModel)]="usuario.email"> <br/>
+                    Telefone: <input type="text" [(ngModel)]="usuario.telefone"> <br/>
+                    Senha: <input type="text" [(ngModel)]="usuario.senha"> <br/>
+            
+                    <button (click)=" enviarAlteracoes();"> enviar Alteracoes</button>
+                </div>
+            </div>
+</div>

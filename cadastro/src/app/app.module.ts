@@ -13,6 +13,7 @@ import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ListagemComponent } from './listagem/listagem.component';
+import { DetalheComponent } from './detalhe/detalhe.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListagemComponent } from './listagem/listagem.component';
     MenuComponent,
     HomeComponent,
     FormularioComponent,
-    ListagemComponent
+    ListagemComponent,
+    DetalheComponent
   ],
   imports: [
     BrowserModule,
