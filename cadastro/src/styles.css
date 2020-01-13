@@ -1,0 +1,12 @@
+body{
+    background-image: url(./assets/imagens/league.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    color: #E6E6E6;
+}
+.container{
+    background-color:	#4d4d4d;
+    opacity: 0.5;
+    box-shadow: 10px 66px 61px 2px rgba(0,0,0,0.75);
+    
+}
